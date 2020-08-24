@@ -147,6 +147,23 @@
    **[⬆ Back to Top](#table-of-contents)**
 
 ### File permissions
+Since Linux is a multi-user operating system, it is necessary to provide security to prevent people from accessing each other’s confidential files.
+
+So Linux divides authorization into 2 levels.
+1. Ownership
+2. Permissions
+
+![permissions](images/permissions.jpg)
+
+**Change access:**
+chmod command is used to change the access mode of a file.
+
+```cmd
+chmod [reference][operator][mode] file...
+
+Example
+chmod ugo-rwx test.txt
+```
 
 **[⬆ Back to Top](#table-of-contents)**
 
